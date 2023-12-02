@@ -1,0 +1,256 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 7865 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Cloudy_Weather
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63864
+Successfully changed project path to: D:/Cloudy_Weather
+D:/Cloudy_Weather
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24248] Host "[IP] 192.168.35.27 [Port] 0 [Flags] 2 [Guid] 208294231 [EditorId] 208294231 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-I7HVA3IA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24248] Host "[IP] 192.168.35.27 [Port] 0 [Flags] 2 [Guid] 208294231 [EditorId] 208294231 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-I7HVA3IA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 124.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Cloudy_Weather/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
+    Vendor:   NVIDIA
+    VRAM:     1928 MB
+    Driver:   27.21.14.5256
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013193 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 119.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Domain Reload Profiling:
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (537ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006207 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Cloudy_Weather\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Cloudy_Weather\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 135.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.596 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1596ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1288ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (721ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+You are currently using different render pipeline assets for the graphics settings (Project Settings > Graphics) and quality settings (Project Settings > Quality). This may lead to unintended behavior for ProPixelizer.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+ProPixelizer.ProPixelizerVerification:Check () (at Assets/ProPixelizer/Tools/Package/ProPixelizerVerification.cs:54)
+PixelisationFeature:Create () (at Assets/ProPixelizer/SRP/PixelisationFeature.cs:40)
+UnityEngine.Rendering.Universal.ScriptableRendererFeature:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererFeature.cs:46)
+
+(Filename: Assets/ProPixelizer/Tools/Package/ProPixelizerVerification.cs Line: 54)
+
+The ShaderGraph Variant Limit is currently set to a value of 128. The ProPixelizer appearance shader will not compile unless this variant is raised, and your shaders will appear pink. Please increase this limit, e.g. to 256, by changing Preferences > ShaderGraph > Shader Variant Limit. Afterwards, reimport the ProPixelizer folder.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+ProPixelizer.ProPixelizerVerification:Check () (at Assets/ProPixelizer/Tools/Package/ProPixelizerVerification.cs:61)
+PixelisationFeature:Create () (at Assets/ProPixelizer/SRP/PixelisationFeature.cs:40)
+UnityEngine.Rendering.Universal.ScriptableRendererFeature:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererFeature.cs:46)
+
+(Filename: Assets/ProPixelizer/Tools/Package/ProPixelizerVerification.cs Line: 61)
+
+You are currently using different render pipeline assets for the graphics settings (Project Settings > Graphics) and quality settings (Project Settings > Quality). This may lead to unintended behavior for ProPixelizer.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+ProPixelizer.ProPixelizerVerification:Check () (at Assets/ProPixelizer/Tools/Package/ProPixelizerVerification.cs:54)
+PixelisationFeature:Create () (at Assets/ProPixelizer/SRP/PixelisationFeature.cs:40)
+UnityEngine.Rendering.Universal.ScriptableRendererFeature:OnEnable () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererFeature.cs:41)
+
+(Filename: Assets/ProPixelizer/Tools/Package/ProPixelizerVerification.cs Line: 54)
+
+The ShaderGraph Variant Limit is currently set to a value of 128. The ProPixelizer appearance shader will not compile unless this variant is raised, and your shaders will appear pink. Please increase this limit, e.g. to 256, by changing Preferences > ShaderGraph > Shader Variant Limit. Afterwards, reimport the ProPixelizer folder.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+ProPixelizer.ProPixelizerVerification:Check () (at Assets/ProPixelizer/Tools/Package/ProPixelizerVerification.cs:61)
+PixelisationFeature:Create () (at Assets/ProPixelizer/SRP/PixelisationFeature.cs:40)
+UnityEngine.Rendering.Universal.ScriptableRendererFeature:OnEnable () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererFeature.cs:41)
+
+(Filename: Assets/ProPixelizer/Tools/Package/ProPixelizerVerification.cs Line: 61)
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (3.9 MB). Loaded Objects now: 5412.
+Memory consumption went from 205.4 MB to 201.5 MB.
+Total: 5.382600 ms (FindLiveObjects: 0.443300 ms CreateObjectMapping: 0.176500 ms MarkObjects: 4.091700 ms  DeleteObjects: 0.669400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 678986.463522 seconds.
+  path: Assets/Balloon_Ghost
+  artifactKey: Guid(5c5ed5059f0af0a40afd011460afa1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balloon_Ghost using Guid(5c5ed5059f0af0a40afd011460afa1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56482ccfca6c34a4a6a9dc8097fd3c0f') in 0.025929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Little_Ghost2
+  artifactKey: Guid(91b3e8668d90f0f4db5f179b1b60f93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_Ghost2 using Guid(91b3e8668d90f0f4db5f179b1b60f93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7bdd4497bf136f5841e3449cddd546') in 0.007772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.277298 seconds.
+  path: Assets/Snow_Girl/Textures/S1/SnowGirl_v1_Body_AlbedoTransparency.png
+  artifactKey: Guid(cc7d68798bbda344b80339da729a0579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow_Girl/Textures/S1/SnowGirl_v1_Body_AlbedoTransparency.png using Guid(cc7d68798bbda344b80339da729a0579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efa348d1316dc4cf27af5c05855dc99') in 0.169874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Snow_Girl/Textures/S4/SnowGirl_v1_Body_MetallicSmoothness.png
+  artifactKey: Guid(0cb5cf3d89f220749879a11ae26393bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow_Girl/Textures/S4/SnowGirl_v1_Body_MetallicSmoothness.png using Guid(0cb5cf3d89f220749879a11ae26393bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe87b491e6a7f1dbd33a4fce6153068') in 0.027559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Snow_Girl/Textures/S1/SnowGirl_v1_Body_MetallicSmoothness.png
+  artifactKey: Guid(f5faebc19779ac54f950296cb2a2388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow_Girl/Textures/S1/SnowGirl_v1_Body_MetallicSmoothness.png using Guid(f5faebc19779ac54f950296cb2a2388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cabfe2fdd2974a9944214f2fe45d5d7') in 0.024925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Snow_Girl/Textures/S3/SnowGirl_v1_Body_AlbedoTransparency.png
+  artifactKey: Guid(6daf4745ddf6a5447975503d2a5c8fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow_Girl/Textures/S3/SnowGirl_v1_Body_AlbedoTransparency.png using Guid(6daf4745ddf6a5447975503d2a5c8fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f7b18e7b608cbe0c8f2f3d92139916') in 0.020448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Snow_Girl/Textures/S2/SnowGirl_v1_Body_AlbedoTransparency.png
+  artifactKey: Guid(2bbb0cd075b10cb48b0b277f6968f83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow_Girl/Textures/S2/SnowGirl_v1_Body_AlbedoTransparency.png using Guid(2bbb0cd075b10cb48b0b277f6968f83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299bf8f6b7901cd0b709af13ae0766ad') in 0.013165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Snow_Girl/Textures/S4/SnowGirl_v1_Body_AlbedoTransparency.png
+  artifactKey: Guid(c9eec4ee8ca585247bd0a772c1a8a095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow_Girl/Textures/S4/SnowGirl_v1_Body_AlbedoTransparency.png using Guid(c9eec4ee8ca585247bd0a772c1a8a095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b4ec4a1c70cdc86fdd2d9b23802d90') in 0.014957 seconds 
